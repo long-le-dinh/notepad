@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{213A34B7-BB57-45BA-9EBA-F546647F35C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{65072A93-5143-4DD7-8C86-7EC51532F5A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScript.Conference.WebRTC", "assets\vendor\icelink\JavaScript.Conference.WebRTC.csproj", "{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.WebSync4", "assets\vendor\videoCall\Chat.WebSync4.csproj", "{0AC078D8-ECD4-4553-A708-336C828DBB49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC078D8-ECD4-4553-A708-336C828DBB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC078D8-ECD4-4553-A708-336C828DBB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC078D8-ECD4-4553-A708-336C828DBB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC078D8-ECD4-4553-A708-336C828DBB49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65072A93-5143-4DD7-8C86-7EC51532F5A7} = {213A34B7-BB57-45BA-9EBA-F546647F35C5}
+		{F16E1748-F1F1-411B-B605-8ECCF6C4AEC4} = {65072A93-5143-4DD7-8C86-7EC51532F5A7}
+		{0AC078D8-ECD4-4553-A708-336C828DBB49} = {65072A93-5143-4DD7-8C86-7EC51532F5A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9863C31-C123-4ECC-978C-75F880CA25E3}
+	EndGlobalSection
+EndGlobal
